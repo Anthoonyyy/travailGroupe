@@ -1,11 +1,43 @@
-#backgroundCard{
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#backgroundCard {
     background-image: url("../images/border1.png");
     background-size: cover;
     height: 400px;
 }
 
-#backgroundCard2{
+#backgroundCard2 {
     background-image: url("../images/border2.png");
     background-size: cover;
     height: 400px;
+}
+
+#titreExemple {
+    background-color: white;
+
+}
+
+#titleHome {
+    font-size: 45px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+#sousTexte {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+
+}
+
+#gradientJquery {
+    background: linear-gradient(90deg, hsla(22, 83%, 79%, 1) 31%, hsla(301, 53%, 71%, 1) 66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
