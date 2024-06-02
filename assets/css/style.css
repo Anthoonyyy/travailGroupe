@@ -135,3 +135,7 @@
     background: radial-gradient(circle, hsla(22, 83%, 79%, 1) 0%, hsla(19, 81%, 80%, 1) 5%, hsla(319, 57%, 75%, 1) 91%, hsla(301, 53%, 71%, 1) 100%);
     border: solid 1px #c3c3c3;
 }
+
+#logoErhanAntho {
+    border: none;
+}
