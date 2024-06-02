@@ -52,7 +52,17 @@
 #btnExemple7,
 #btnExemple8,
 #btnExemple9,
-#btnExemple10 {
+#btnExemple10,
+#btnNext,
+#btnSlideDown,
+#btnSlideUp,
+#btnSlideToggle,
+#btnParent,
+#btnHtml,
+#btnFadeIn,
+#btnFadeOut,
+#btnFadeToggle,
+#btnFadeTo {
     border: none;
     outline: none;
     background-color: #fad38b;
@@ -80,7 +90,15 @@
 #reset7,
 #reset8,
 #reset9,
-#reset10 {
+#reset10,
+#resetNext,
+#resetSlideDown,
+#resetSlideUp,
+#resetParent,
+#resetHtml,
+#resetFadeIn,
+#resetFadeOut,
+#resetFadeTo {
     border: none;
     outline: none;
     background-color: #fab9dc;
@@ -96,4 +114,24 @@
 #reset1:active {
     transform: translateY(5px);
     box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+
+.siblings * {
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 35px;
+    width: 50%;
+
+}
+
+#panel,
+#panel2,
+#panel3 {
+    padding: 5px;
+    margin: 35px auto;
+    text-align: center;
+    background: radial-gradient(circle, hsla(22, 83%, 79%, 1) 0%, hsla(19, 81%, 80%, 1) 5%, hsla(319, 57%, 75%, 1) 91%, hsla(301, 53%, 71%, 1) 100%);
+    border: solid 1px #c3c3c3;
 }
