@@ -72,6 +72,7 @@ $(function () {
     $("#btnExemple6").on("click", function () {
 
         $("#exemple6").after('<div class="text-center pt-2 mt-2" id="resetAfter">Voici le contenu ajouté !</div>');
+        $("#btnExemple6").prop("disabled", true);
     });
     // Bouton reset exemple 6
     $("#reset6").on("click", function () {
@@ -86,6 +87,7 @@ $(function () {
     $("#btnExemple7").on("click", function () {
 
         $("#exemple7").prepend("<span>Me voici juste avant maintenant </span>");
+        $("#btnExemple7").prop("disabled", true);
     });
     // Bouton reset exemple 6
     $("#reset7").on("click", function () {
@@ -100,6 +102,7 @@ $(function () {
     $("#btnExemple8").on("click", function () {
 
         $("#exemple8").before("<div class='text-center pt-4 mt-5 mb-2'>Me voici juste avant maintenant </div>");
+        $("#btnExemple8").prop("disabled", true);
     });
     // Bouton reset exemple 6
     $("#reset8").on("click", function () {
